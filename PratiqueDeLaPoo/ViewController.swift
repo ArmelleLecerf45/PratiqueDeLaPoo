@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setBackgroundColor(.systemCyan)
     }
 
 
 }
-
+extension ViewController{
+    func setBackgroundColor(_ color : UIColor){
+        self.view.backgroundColor = .purple
+        
+    }
+}
